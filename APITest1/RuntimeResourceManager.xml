@@ -1,0 +1,3 @@
+<RuntimeResourceManager>
+<RuntimeResource><Key>{DT2!Sheet1.TablePath}</Key><Path>QC</Path><Value>DT2\DT2.xlsx</Value><AddinId>DataAwarenessDependencyResolver</AddinId></RuntimeResource>
+</RuntimeResourceManager>

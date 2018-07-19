@@ -1,0 +1,145 @@
+<EnvironmentProfiles><Table><NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Profiles" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Profiles">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="VarName" type="xs:string" minOccurs="0" />
+                <xs:element name="IsSystem" type="xs:boolean" default="false" minOccurs="0" />
+                <xs:element name="Description" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="SystemProfile" type="xs:string" minOccurs="0" />
+                <xs:element name="Profile1" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1">
+        <xs:selector xpath=".//Profiles" />
+        <xs:field xpath="VarName" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Profiles>
+    <VarName>IsLoadTest</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>Not Available In Design Time</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>TestDir</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile />
+  </Profiles>
+  <Profiles>
+    <VarName>TestName</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile />
+  </Profiles>
+  <Profiles>
+    <VarName>LocalHostName</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>TEKLABQC05</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>OS</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>Windows</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>OSVersion</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>Microsoft Windows NT 6.1.7601 Service Pack 1</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>ProductDir</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>C:\Program Files (x86)\HP\Unified Functional Testing\</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>ProductName</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>HP Unified Functional Testing</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>ProductVer</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>12.53</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>UserName</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>Andrey.Stefanov</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>CurrentDate</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>6.10.2016 г. 05:37:08 ч.</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>QcUrl</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>http://10.11.10.167:8081/qcbin</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>QcUserName</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>admin</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>QcPassword</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>01000000D08C9DDF0115D1118C7A00C04FC297EB010000008563F0B10C2A554D8CB203CC52CF00680000000002000000000003660000C00000001000000030B3BCFCAACC1B9BE245855BE2007CAC0000000004800000A0000000100000004075CD2CC873185CD3E709EC9921C5FA080000001D18D6D8EDC3A876140000004404F5D70AD5F573CA7EFBA904EF34F3CED82593@@encrypted@@</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>QcDomain</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>DEFAULT</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>QcProject</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>API_TEST_CHECK</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>CurrentRunID</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile />
+  </Profiles>
+  <Profiles>
+    <VarName>CurrentTestSetID</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile />
+  </Profiles>
+  <Profiles>
+    <VarName>CurrentTestSet</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile />
+  </Profiles>
+  <Profiles>
+    <VarName>CurrentTestInstanceID</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile />
+  </Profiles>
+</NewDataSet></Table><ActiveProfile>Profile1</ActiveProfile></EnvironmentProfiles>
